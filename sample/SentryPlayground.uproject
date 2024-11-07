@@ -7,7 +7,10 @@
 		{
 			"Name": "SentryPlayground",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
@@ -33,10 +36,7 @@
 		}
 	],
 	"TargetPlatforms": [
-		"Android",
-		"IOS",
-		"Linux",
-		"Windows",
-		"Mac"
+		"Windows"
+
 	]
 }
